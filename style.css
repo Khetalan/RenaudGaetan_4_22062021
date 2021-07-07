@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(101, 87, 48, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1048,4 +1048,11 @@ h4 {
 .bloc4-title{
     width: 65%;
     margin: auto;
+}
+/*Recommandation 9 - Accessibility - Contrast Color*/
+.tc-black{
+    color: rgba(0, 0, 0, 0.884) !important;
+}
+.tc-lighter{
+    color: white !important;
 }
