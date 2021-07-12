@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    width: auto;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 52px;
 }
 
 .navbar {
@@ -323,6 +323,9 @@ a:hover {
 }
 
 .nav > li {
+    text-decoration: underline;
+    list-style: none;
+    padding-right: 20px ;
     float: left;
     margin-top: 4px;
     font-size: 16px;
@@ -677,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -695,12 +698,13 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
+    border-radius: 25px;
     font-size: 16px;
     font-weight: 700;
 }
 
 .social {
-    max-width: 400px;
+    max-width: 70%;
     margin: auto auto auto auto;
 }
 
@@ -710,7 +714,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -822,7 +826,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -871,10 +875,6 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -1055,4 +1055,21 @@ h4 {
 }
 .tc-lighter{
     color: white !important;
+}
+/*Modifcation CSS - Bonus*/
+.commentary{
+    width: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f3976cb4;
+    border-radius: 7px;
+    margin-left: 12%;
+}
+.com-customer{
+    color: black !important;
+}
+.partner-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
