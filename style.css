@@ -1068,8 +1068,14 @@ h4 {
 .com-customer{
     color: black !important;
 }
+.autor-customer{
+    color: black !important;
+}
 .partner-link{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+footer a{
+    color: black !important;
 }
